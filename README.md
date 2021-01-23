@@ -1,10 +1,10 @@
-**# JavaScript Objects**
+# JavaScript Objects
 
 
 
-**### Objectives**
+### Objectives
 
-**After this lesson, students will be able to:**
+After this lesson, students will be able to:
 
 \- Explain the difference between object properties and methods
 
@@ -20,13 +20,13 @@
 
 Objects in JavaScript
 
-**=====**
+=====
 
-**## Opening**
+## Opening
 
 
 
-**### What is an object?**
+### What is an object?
 
 ![Whats that](https://media.giphy.com/media/ybcMkow8xLIrK/giphy.gif)
 
@@ -52,15 +52,15 @@ const Person = {
 
 \* In JavaScript, an object is a type of key-value store, or a way to group many pairs of keys and values together, so sometimes it's used like a hash (in Ruby) or a dictionary (in other languages)
 
-Aside from the values `null` and `undefined`, ***\*everything in JavaScript is an object\****.
+Aside from the values `null` and `undefined`, *\*everything in JavaScript is an object\.
 
 
 
-**### Collections of name-value pairs**
+### Collections of name-value pairs
 
 
 
-JavaScript objects work as lists of keys (***\*A property name\****) and corresponding values (***\*A property value\****).
+JavaScript objects work as lists of keys (*\*A property name\) and corresponding values (*\*A property value\).
 
 
 
@@ -72,7 +72,7 @@ A key can be either a name, a number or a string, the corresponding value to a k
 
 
 
-**## Creating Objects**
+## Creating Objects
 
 
 
@@ -80,7 +80,7 @@ There are 4 different ways to create an object.
 
 
 
-**#### Object literal syntax**
+#### Object literal syntax
 
 
 
@@ -94,7 +94,7 @@ const myObject = {}
 
 
 
-**#### Object constructor**
+#### Object constructor
 
 
 
@@ -106,7 +106,7 @@ const myObject = new Object();
 
 
 
-**#### Constructor function**
+#### Constructor function
 
 
 
@@ -134,7 +134,7 @@ Billie
 
 
 
-**#### Object.create**
+#### Object.create
 
 
 
@@ -168,11 +168,11 @@ myCar.displayType();
 
 
 
-**## Object Properties**
+## Object Properties
 
 
 
-Objects in JavaScript ***\*always\**** have properties associated with them.
+Objects in JavaScript *\*always\ have properties associated with them.
 
 
 
@@ -196,7 +196,7 @@ Person.firstName
 
 
 
-**## Creating an object with properties**
+## Creating an object with properties
 
 Lets create an object `cup` that contains properties type and isFull.
 
@@ -219,7 +219,7 @@ cup
 
 
 
-**#### Bracket notation**
+#### Bracket notation
 
 
 
@@ -250,7 +250,7 @@ For more details see [MDN's Documentation on Property Accessors](https://develop
 
 
 
-**#### Deleting properties**
+#### Deleting properties
 
 
 
@@ -268,7 +268,7 @@ cup
 
 
 
-**## Object methods**
+## Object methods
 
 
 
@@ -301,7 +301,7 @@ car.displayType();
 
 
 
-**#### Assigning a previously-defined function**
+#### Assigning a previously-defined function
 
 
 
@@ -345,7 +345,7 @@ myCar.displayType();
 
 
 
-**#### Assigning a previously-defined function**
+#### Assigning a previously-defined function
 
 
 
@@ -383,7 +383,7 @@ This section from [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 
 
 
-**#### Enumerating properties of an object**
+#### Enumerating properties of an object
 
 
 
@@ -391,17 +391,17 @@ There are three native ways to list the properties of an object:
 
 
 
-\* ***\*for...in loops\**** This method traverses all enumerable properties of an object and its prototype chain
+\* *\*for...in loops\ This method traverses all enumerable properties of an object and its prototype chain
 
-\* ***\*Object.keys(o)\**** This method returns an array with all the own (not in the prototype chain) enumerable properties' names ("keys") of an object o.
+\* *\*Object.keys(o)\ This method returns an array with all the own (not in the prototype chain) enumerable properties' names ("keys") of an object o.
 
-\* ***\*Object.getOwnPropertyNames(o)\**** This method returns an array containing all own properties' names (enumerable or not) of an object o.
-
-
+\* *\*Object.getOwnPropertyNames(o)\ This method returns an array containing all own properties' names (enumerable or not) of an object o.
 
 
 
-***\*Loop over an objects properties\****
+
+
+*\*Loop over an objects properties\
 
 
 
@@ -437,7 +437,7 @@ showProps(myCar, "Car");
 
 
 
-**## Comparing Objects**
+## Comparing Objects
 
 In JavaScript, if two objects are created separately, they are distinct, even if they are given the same properties.
 
@@ -463,7 +463,7 @@ If you're confused by the difference between `==` and `===` review MDN's notes o
 
 
 
-**## Conclusion**
+## Conclusion
 
 
 
